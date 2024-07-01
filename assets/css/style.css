@@ -1,3 +1,8 @@
-*{
-    
+@media only screen and (max-width: 990px){
+    .borTop{
+        border-top: 1px solid #dee2e6 !important;
+    }
+    .borBottom{
+        border-top: 1px solid #dee2e6 !important;
+    }
 }

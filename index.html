@@ -7,37 +7,45 @@
     <link rel="stylesheet" href="src/bootstrap/css/bootstrap.min.css">
     <title>Padaria do Senac</title>
 </head>
+
 <body>
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Padaria Senac &hearts;</a>
+                <a class="navbar-brand" href="#">Café Escola Senac &hearts;</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
                     <s0pan class="navbar-toggler-icon"></s0pan>
                 </button>
                 <div class="offcanvas offcanvas-end" id="offcanvasRight" tabindex="-1" aria-labelledby="offcanvasRightLabel">
-                    <div class="d-flex justify-content-end">
+                    <div class="offcanvas-header">
                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
-                <ul class="navbar-nav">
+                <ul class="navbar-nav px-4">
                     <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Início</a>
+                    <a class="nav-link borTop" aria-current="page" href="#">Início</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#">Sobre Nós</a>
+                    <a class="nav-link borTop" href="#">Sobre Nós</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#">Lista de Produtos</a>
+                    <a class="nav-link borTop" href="#">Lista de Produtos</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" aria-disabled="true">Contato</a>
+                    <a class="nav-link borTop borBottom" aria-disabled="true">Contato</a>
                     </li>
                 </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <main></main>
+    <main>
+        <div class="container-fluid">
+            <div class="row text-center mt-5 justfy-content-center"></div>
+            <h2 class="h2 text-warning">Apaixonado por café</h2>
+            <h1 class="h1 mt-3">Cafeteria artesanal</h1>
+            <button class="btn btn-outline border w-50">Sobre nós</button>
+        </div>
+    </main>
     <footer></footer>
     <script src="./src/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
