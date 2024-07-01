@@ -1,52 +1,61 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="src/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./src/bootstrap/css/bootstrap.min.css">
     <title>Padaria do Senac</title>
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Café Escola Senac &hearts;</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
-                    <s0pan class="navbar-toggler-icon"></s0pan>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand text-warning" href="#">Café Escola Senac &hearts;</a>
+                <button class="navbar-toggler bg-warning" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="offcanvas offcanvas-end" id="offcanvasRight" tabindex="-1" aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas offcanvas-end" id="offcanvasRight" tabindex="-1"
+                    aria-labelledby="offcanvasRightLabel">
                     <div class="offcanvas-header">
                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
-                <ul class="navbar-nav px-4">
-                    <li class="nav-item">
-                    <a class="nav-link borTop" aria-current="page" href="#">Início</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link borTop" href="#">Sobre Nós</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link borTop" href="#">Lista de Produtos</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link borTop borBottom" aria-disabled="true">Contato</a>
-                    </li>
-                </ul>
+                    <ul class="navbar-nav px-4 justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link borTop text-warning" aria-current="page" href="#">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link borTop text-warning" href="#">Sobre nós</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link borTop text-warning" href="#">Lista de Produtos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link borTop borBottom text-warning" aria-disabled="true">Contato</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </nav>
     </header>
     <main>
-        <div class="container-fluid">
-            <div class="row text-center mt-5 justfy-content-center"></div>
-            <h2 class="h2 text-warning">Apaixonado por café</h2>
-            <h1 class="h1 mt-3">Cafeteria artesanal</h1>
-            <button class="btn btn-outline border w-50">Sobre nós</button>
+        <div class="container-fluid imgTop">
+            <div class="row text-center mt-5 justify-content-center align-items-center h-100">
+                <div class="col">
+                    <h2 class="h2 text-warning">Apaixonado por café</h2>
+                    <h1 class="display-1 mt-3 text-white fw-bold">Confeitaria artesanal</h1>
+                    <button
+                        class="btn btn-outline border mt-3 mb-5 px-5 rounded-0 border-warning text-white fw-bolder">SOBRE
+                        NÓS</button>
+                </div>
+            </div>
         </div>
     </main>
     <footer></footer>
     <script src="./src/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

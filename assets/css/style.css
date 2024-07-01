@@ -1,8 +1,19 @@
-@media only screen and (max-width: 990px){
-    .borTop{
-        border-top: 1px solid #dee2e6 !important;
+    .imgTop {
+        position: fixed;
+        width: 100%;
+        height: 75%;
+        background-image: url(../img/vered-caspi-P57G1wq8hi4-unsplash.jpg);
+        background-size: cover;
+        background-position: center;
+        top: 0;
+        z-index: -1;
     }
-    .borBottom{
-        border-top: 1px solid #dee2e6 !important;
+
+    @media only screen and (max-width: 990px) {
+        .borTop {
+            border-top: 1px solid #dee2e6 !important;
+        }
+        .borBottom {
+            border-bottom: 1px solid #dee2e6 !important;
+        }
     }
-}
